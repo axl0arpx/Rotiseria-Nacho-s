@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Registrarse</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="home.html" class="logo">Rotiseria Nacho's 😋</a>
+
+      <nav class="navbar">
+         <a href="home.html">Inicio</a>
+         <a href="about.html">Sobre nosotros</a>
+         <a href="menu.html">Menu</a>
+         <a href="orders.html">Pedir</a>
+         <a href="contact.html">Contacto</a>
+      </nav>
+
+      <div class="icons">
+         <a title="search" href="search.html"><i class="fas fa-search"></i></a>
+         <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">Rotiseria Nacho's</p>
+         <div class="flex">
+            <a href="profile.html" class="btn">Perfil</a>
+            <a href="#" class="delete-btn">Salir</a>
+         </div>
+         <p class="account"><a href="login.html">Ingresar</a> o <a href="register.html">Registrarse</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+<section class="form-container">
+
+   <form action="" method="post">
+      <h3>Tu dirección</h3>
+      <input type="text" maxlength="50" placeholder="flat no. and building name" required class="box" name="flat">
+      <input type="text" maxlength="50" placeholder="area name" required class="box" name="street">
+      <input type="text" maxlength="50" placeholder="city name" required class="box" name="city">
+      <input type="text" maxlength="50" placeholder="state name" required class="box" name="state">
+      <input type="text" maxlength="50" placeholder="country name" required class="box" name="country">
+      <input type="number" min="0" max="999999" placeholder="pin code" required class="box" name="pin_code" onkeypress="if(this.value.length == 6) return false;">
+      <input type="submit" value="save address" name="submit" class="btn">
+   </form>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   <section class="box-container">
+
+      <div class="box">
+         <img src="images/email-icon.png" alt="">
+         <h3>Nuestro email</h3>
+         <a href="mailto:axl_arpx@hotmail.es">axl_arpx@hotmail.es</a>
+         <a href="mailto:axl_arpx@hotmail.es">axl_arpx@hotmail.es</a>
+      </div>
+
+      <div class="box">
+         <img src="images/clock-icon.png" alt="">
+         <h3>Horarios de atención</h3>
+         <p>Martes a Domingos</p>
+         <p>09:00am to 03:00am </p>
+      </div>
+
+      <div class="box">
+         <img src="images/map-icon.png" alt="">
+         <h3>Nuestra dirección</h3>
+         <a  href= "https://www.google.com/maps/place/27%C2%B028'53.8%22S+58%C2%B050'21.4%22W/@-27.4815752,-58.8393289,20.75z/data=!4m4!3m3!8m2!3d-27.481604!4d-58.839264?entry=ttu" target="_blank" rel="noopener">Corrientes Argentina; La madrid 1055</a>
+      </div>
+
+      <div class="box">
+         <img src="images/phone-icon.png" alt="">
+         <h3>Escribinos</h3>
+         <a href="tel:+54-3794-290648">+54-3794-290648</a>
+         <a href="tel:+54-3794-290648">+54-3794-290648</a>
+      </div>
+
+   </section>
+
+   <div class="credit">&copy; copyright @ 2023 by <span>Morning in Wonderland</span> | todos los derechos reservados!</div>
+
+</footer>
+
+<div class="loader">
+   <img src="images/loader.gif" alt="">
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
